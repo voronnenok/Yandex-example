@@ -1,4 +1,4 @@
-package com.example.yandexmap;
+package com.example.yandexmap.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.yandexmap.R;
 import com.example.yandexmap.entity.Price;
 import com.example.yandexmap.entity.Task;
 import org.apache.http.impl.cookie.DateUtils;

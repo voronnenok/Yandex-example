@@ -1,4 +1,4 @@
-package com.example.yandexmap;
+package com.example.yandexmap.ui;
 
 import com.example.yandexmap.entity.Task;
 

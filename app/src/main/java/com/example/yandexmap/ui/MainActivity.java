@@ -1,4 +1,4 @@
-package com.example.yandexmap;
+package com.example.yandexmap.ui;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -6,9 +6,11 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.yandexmap.R;
 import com.example.yandexmap.entity.Task;
 
-public class MainActivity extends ActionBarActivity implements TaskClickListener{
+public class MainActivity extends ActionBarActivity implements TaskClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

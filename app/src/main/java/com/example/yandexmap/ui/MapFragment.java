@@ -1,4 +1,4 @@
-package com.example.yandexmap;
+package com.example.yandexmap.ui;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
+import com.example.yandexmap.MapApplication;
+import com.example.yandexmap.R;
 import com.example.yandexmap.api.TasksService;
 import com.example.yandexmap.entity.Location;
 import com.example.yandexmap.entity.Task;
