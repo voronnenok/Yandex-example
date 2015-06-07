@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.yandexmap.InfoFragment"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Task title"
+                android:id="@+id/title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_margin="@dimen/view_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:id="@+id/text"
+                android:layout_margin="@dimen/view_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Long text"
+                android:id="@+id/long_text"
+                android:layout_margin="@dimen/view_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prices"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/view_margin"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_prices" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:id="@+id/date"
+                android:layout_margin="@dimen/view_margin"
+                android:inputType="date" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:id="@+id/location_text"
+                android:layout_margin="@dimen/view_margin"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
